@@ -41,7 +41,9 @@ public class ChooseCourseTask {
             if(taskService.getTask(xcTask.getId(),xcTask.getVersion())>0){
                 String ex= xcTask.getMqExchange();
                 String routingKey =xcTask.getMqRoutingkey();
+                String taskId = xcTask.getId();
                 taskService.publish(xcTask,ex,routingKey);
+                LOGGER.info("send choose course task id:{}",taskId);
             }
 
         }
