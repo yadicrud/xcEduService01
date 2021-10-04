@@ -43,7 +43,7 @@ public class ChooseCourseTask {
                 String routingKey =xcTask.getMqRoutingkey();
                 String taskId = xcTask.getId();
                 taskService.publish(xcTask,ex,routingKey);
-                LOGGER.info("send choose course task id:{}",taskId);
+                LOGGER.info("send choose course task id:{}", taskId);
             }
 
         }
