@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>xc-service-manage-cms</module>
         <module>../xc-service-manage-cms</module>
-        <module>test-rabbitmq-producer</module>
+        <module>../xc-service-manage-cms</module>
+        <module>../test-rabbitmq-producer</module>
         <module>../test-rabbitmq-consumer</module>
         <module>../test-rabbitmq-producer</module>
         <module>../xc-service-manage-cms-client</module>
