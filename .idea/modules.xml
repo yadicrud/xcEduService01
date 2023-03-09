@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/test-rabbitmq-consumer/test-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/test-rabbitmq-consumer/test-rabbitmq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-rabbitmq-producer/test-rabbitmq-producer.iml" filepath="$PROJECT_DIR$/test-rabbitmq-producer/test-rabbitmq-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xc-eureka/xc-eureka.iml" filepath="$PROJECT_DIR$/xc-eureka/xc-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/xc-framework-common/xc-framework-common.iml" filepath="$PROJECT_DIR$/xc-framework-common/xc-framework-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/xc-framework-model/xc-framework-model.iml" filepath="$PROJECT_DIR$/xc-framework-model/xc-framework-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/xc-framework-parent/xc-framework-parent.iml" filepath="$PROJECT_DIR$/xc-framework-parent/xc-framework-parent.iml" />

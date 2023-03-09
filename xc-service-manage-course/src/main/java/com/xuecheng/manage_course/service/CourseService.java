@@ -12,8 +12,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import javax.transaction.Transactional;
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
@@ -74,7 +77,6 @@ public class CourseService {
             teachplanNew.setGrade("3");
         }
         teachPlanRepository.save(teachplanNew);
-
         return new ResponseResult(CommonCode.SUCCESS);
     }
 
